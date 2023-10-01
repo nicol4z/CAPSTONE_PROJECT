@@ -1,0 +1,182 @@
+:root{
+    --lsa-blue: #001c57;
+    --lsa-light-blue: #0353a4;
+    --lsa-orange: #b86125;
+    --lsa-light-orange: #ff7300;
+    --lsa-green: #0E7C4A;
+    --lsa-light-green: #00b74f;
+    --lsa-light-gray: #ebebeb;
+    --lsa-gray: #414141;
+  }
+.lsa-green{
+  background-color: var(--lsa-green) !important;
+}
+.lsa-light-green{
+  background-color: var(--lsa-light-green) !important;
+}
+  .lsa-gray{
+    background-color: var(--lsa-gray) !important;
+  }
+  .lsa-gray-text{
+    color: var(--lsa-gray) !important;
+  }
+.lsa-light-gray{
+    background-color: var(--lsa-light-gray) !important;
+  }
+  .lsa-light-gray-text{
+    color: var(--lsa-light-gray) !important;
+  }
+  
+.lsa-blue{
+    background-color: var(--lsa-blue) !important;
+  }
+  .lsa-light-blue{
+    background-color: var(--lsa-light-blue) !important;
+  }
+  .lsa-light-blue-text{
+    color: var(--lsa-light-blue) !important;
+  }
+  .lsa-orange{
+    background-color: var(--lsa-orange) !important;
+  }
+  .lsa-light-orange{
+    background-color: var(--lsa-light-orange) !important;
+  }
+  .lsa-orange-text{
+    color: var(--lsa-orange) !important;
+  }
+  .my-custom-nav {
+    background-color: #0da6ac; /* Establecer el color de fondo a un tono de azul */
+    color: white; /* Establecer el color del texto en blanco */
+  }
+  .my-logo {
+    margin-left: 10px;
+    max-width: 100px;
+  }
+  .my-nav-item {
+    margin-right: 20px;
+  }
+  .segunda {
+    margin-left: 10px;
+    max-width: 100px;
+    position: absolute;
+    right: 10px; /* Ajusta el valor para obtener el margen deseado */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+ 
+  .my-form-group {
+    display: flex; // propiedades para que los dos grupos estén en la misma línea
+    margin-right: 20px; // margen entre los dos grupos
+    margin-top: 20px;
+    align-items: center; // centrar los elementos verticalmente
+  }
+  
+  .my-form-group {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .my-form-group label {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .my-form-group input {
+    flex: 1;
+  }
+  button[type="submit"] {
+    margin-top: 20px;
+  }
+  .my-form-group-wide {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .my-form-group-wide > label {
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cursorToHand {
+    cursor: pointer;
+  }
+  .my-form-group-wide > div {
+    width: 100%;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .my-form {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+  .menuButton {
+    background-color: white;
+}
+  .menuButton:hover {
+    transition-duration: 0.1s;
+    background-color: var(--ucn-light-gray);
+}
+
+.menuButton:active {
+    transition-duration: 0.1s;
+    scale: 1.05;
+    background-color: var(--ucn-light-gray);
+    color: black;
+    border: solid 1px gray;
+    z-index:25;
+}
+  .buttons {
+    margin-right: 10px;
+  }
+
+  .reactive-button{
+    transition: all .3s cubic-bezier(0.25, 1, 0.33, 1);
+  }
+
+  .reactive-button:active {
+transform:scale(0.95);
+box-shadow: 0 10px 25px rgba(0,0,0,0.14), 0 5px 15px rgba(0,0,0,0.14);
+  }
+
+.btn-round{
+  border-radius: 50%;
+  aspect-ratio: 1 / 1 !important;
+}
+  .hand-on-cursor{
+    cursor: pointer;
+  }
+
+  .modal-header{
+    background-color: var(--lsa-blue);
+    color: white;
+    font-weight: bold;
+  }
+
+  .analista-item {
+    margin-bottom: 8px; /* Ajusta el valor según el espacio deseado */
+  }
+
+  .spaced-button {
+    margin-left: 5px; /* Ajusta el valor según tus necesidades */
+  }
+
+  .small-input {
+    width: 4em;
+    max-width: 4em;
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+  
